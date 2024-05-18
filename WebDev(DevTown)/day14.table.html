@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+
+    <!-- Types of CSS Selector:- -->
+    
+    <style>
+        /* 1.Universal Selector */
+     *{
+        color: red
+      }
+ 
+        /* 2.Element Selector  */
+     h6{
+        color:blueviolet
+       }
+
+      /* h3{
+        color:blue                 [it is not very efficient method(Element selector) because we have to write the same code again for h4, so we'll be using another selector]
+        } */
+
+        /* 3. Selector List */
+     h3,h5{
+             color:palevioletred
+          }
+
+        /* 4. Class Selector */
+     .democlass{
+        color:green
+               }
+        /* 5. ID Selector */
+     #demoID{
+        color:maroon
+            }       
+
+    </style>
+    
+</head>
+<body>
+    <h3>CSS Selectors:</h3>
+    <p class="democlass">Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h4 class="democlass">Lorem ipsum dolor sit amet.</h4>
+    <h5>Lorem ipsum dolor sit amet.</h5>
+    <h6>Lorem ipsum dolor sit amet.</h6>
+    <p class="democlass">Lorem ipsum dolor sit amet.</p>
+    <p id="demoID">Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+    <p>Lorem ipsum dolor sit.</p>
+</body>
+</html>

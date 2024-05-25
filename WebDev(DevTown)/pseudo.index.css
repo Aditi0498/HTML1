@@ -1,0 +1,47 @@
+button{
+    font-size: large ;   
+    /* not a correct approach(not getting it through pseudo classes */
+}
+
+/* 1. Hover State: Positioning the cursor on the button (there should not be any space between colon and H of hover)*/
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor:pointer;
+    /* these functions will work only when you hover on that button */
+}
+
+/* 2.Active State: when we hold the left key of a button or the cursor of mouse is called Active State */
+button:active{
+    border:1px solid red;
+}
+
+/* 3.Focus State: */
+button:focus{
+    background-color: aqua;
+    color:plum;
+}
+
+/* 1.First Child */
+span:first-child{
+    background-color: blueviolet;
+}
+/* .child:first-child{
+    background-color: blueviolet;     (alternate method)
+} */
+
+/* 2.Last Child */
+.child:last-child{
+    background-color: aquamarine;
+}   
+/* alternate method
+span:last-child{
+    background-color:aquamarine
+ } */
+
+ /*3.nth Child */
+ span:nth-child(4){
+    background-color: peachpuff;
+ }
+
+

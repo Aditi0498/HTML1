@@ -1,0 +1,25 @@
+/* Box Model */
+span{
+    border:2px solid red;
+/* gives border to the content */
+
+/* padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px; */
+
+/* padding: 10px; */
+
+/* top,right,bottom,left */
+/* padding: 10px 5px 10px 5px; */
+
+padding:5px 10px;
+/* white spaces from each side of the border in the inside */
+
+margin:25px;
+/* the white space from the right side outside of the border/margin */
+
+border-radius: 10px;   
+/* border-radius: 30px;  (it is for smooth edges)*/
+
+}

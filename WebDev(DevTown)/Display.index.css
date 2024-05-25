@@ -1,0 +1,46 @@
+/* Display in CSS */
+/* 1.Block Scope */
+.block1{ 
+         background-color: aqua;
+         display: block;
+         height: 40px;
+}
+
+.block2{ 
+         background-color: blue;
+         display: block;
+}
+
+/* 2. Inline Scope */
+.inline1{
+          background-color: yellow;
+          display: inline;
+          height:50px;
+          width:20px;
+}
+
+.inline2{
+    background-color:red;
+    display: inline; 
+}
+
+/* 3. Inline-Block Scope*/
+.ib1{
+     display: inline-block; 
+     background-color:palevioletred;
+}
+
+.ib2{
+    display: inline-block; 
+    background-color:purple;
+    height:50px;
+    width:100px;
+}
+
+/* Positions in CSS */
+/* 1.Static Position */
+.staticPos{
+    position:static;
+    background-color: plum;
+    border: 1px solid black;
+}

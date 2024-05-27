@@ -1,0 +1,117 @@
+/* Media Queries  */
+/* Syntax:-
+@media only screen and (max-width:460px){
+    h6{
+
+    }
+
+    p{
+
+    }
+} */
+
+/* screen/device is less than or equal to 1200px */
+/* @media only screen and (max-width:1200px){
+    h6{
+         color: green;
+         font-size: 22px;
+    }
+
+    p{
+       color: red;
+       font-size: 12px;
+    }
+
+} */
+
+/* screen/device is less than or equal to 850px */ 
+/* @media only screen and (max-width:850px){
+    h6{
+         color: rebeccapurple;
+         font-size: 22px;
+    }
+
+    p{
+       color:yellow;
+       font-size: 12px;
+    }
+
+} */
+
+/* screen/device is less than or equal to 450px */ 
+/* @media screen and (max-width:450px){
+    h6{
+         color: white;
+         background-color: black;
+         font-size: 22px;
+    }
+
+    p{
+       color:yellow;
+       font-size: 12px;
+    } 
+}  */
+
+/* screen/device is less than or equal to 250px */ 
+/* @media only screen and (max-width:250px){
+    h6{
+        color: white;
+        background-color: black;
+        border: 2px solid red;
+        font-size: 22px;
+    }
+
+    p{
+       color:yellow;
+       font-size: 12px;
+    }
+
+} */
+
+/* screen/device is greater than or equal to 250px */
+@media only screen and (min-width:250px){
+    h6{
+        color: red;
+        /* background-color: black;
+        border: 2px solid red; */
+        font-size: 22px;
+    }
+
+    p{
+       color:yellow;
+       font-size: 12px;
+    }
+
+} 
+
+/* screen/device is greater than or equal to 500px */
+@media only screen and (min-width:500px){
+    h6{
+        color: magenta;
+        background-color: black;
+        border: 2px solid red;
+       font-size: 22px;
+    }
+
+    p{
+       color:aquamarine;
+       font-size: 12px;
+    }
+
+} 
+
+/* screen/device is greater than or equal to 800px */
+@media only screen and (min-width:800px){
+    h6{
+        color:blue;
+        background-color: black;
+        border: 2px solid red;
+       font-size: 22px;
+    }
+
+    p{
+       color:orange;
+       font-size: 12px;
+    }
+
+} 
